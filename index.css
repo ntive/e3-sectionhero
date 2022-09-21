@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Quicksand';
+    color: #042A2B;
+    height: 2000px;
+    font-weight: bold;
+}
+
+.info{
+    width: 70%;
+    height: 50vh;
+    box-shadow: 5px 5px 60px #8b8b8b;
+    display: flex;
+    margin: auto auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.text{
+    margin:5% 5%;
+}
+
+#image{
+    width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://www.cariverplate.com.ar/imagenes/jugadores/2022-08/1352-31-simon-imagenprincipal.png);
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #d41461;
+    margin: auto 15px;
+    width: 30%;
+    height: 15%;
+}
+
+button:hover{
+    background-color: #b41454;
+    scale: 1.1;
+}
+
